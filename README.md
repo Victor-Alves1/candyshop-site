@@ -9,5 +9,7 @@ Trying to train my React js skills
 ## When you have a lot things in the Cart
 ![image](https://user-images.githubusercontent.com/101835324/165626394-fbe81a45-07b4-4fa6-8b0e-83bc5eb85e45.png)
 ## Mobile Version
-![image](https://user-images.githubusercontent.com/101835324/165627404-ef65e7a9-4a28-4c0d-9b64-bd6cbc49e9d2.png)
+![image](https://user-images.githubusercontent.com/101835324/165627650-0b579741-7021-46d9-a121-c1d825793aa2.png)
+
+
 ![image](https://user-images.githubusercontent.com/101835324/165627091-bd58b704-138b-4242-a708-2f6f600a2f84.png)
