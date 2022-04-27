@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  border: 2px solid black;
+  margin: 20px;
+}
+.Add-buttom{
+  display: block;
+  margin: auto;
+}
+.Plus, .Minus{
+  border-radius: 1em;
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.Plus:hover, .Minus:hover{
+  border: 1px solid red;
+  color: black;
+}
+.Plus{
+  background-color: #EA4C89;
+  color: white;
+}
+#candyRequest{
+  width: 244px;
+}
+#Qnt{
+  width: 240px;
+}
+.Add-buttom{
+  width: 560px;
+  background-color: #EA4C89;
+  color: white;
+  margin-bottom: 10px;
+}
+@media(max-width:600px){
+  .Add-buttom{
+    width: 244px;
+  }
+  .Plus{
+    display: none;
+  }
+  .Minus{
+    display: none;
+  }
+  #Qnt{
+    margin: 5px auto;
+  }
+}

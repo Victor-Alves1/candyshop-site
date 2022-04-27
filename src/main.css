@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+select, input, button, body{
+    font-family: 'Nunito', sans-serif;
+    color: #EA4C89;
+    font-size: 16pt;
+    box-shadow: none;
+    font-weight: 700;
+}
+h1{
+    font-style: italic;
+    --webkit-font-smoothing: antialiased;
+}
+@media(max-width:600px){
+    select, input, button, body{
+        display: block;
+        margin: auto;
+    }
+}
