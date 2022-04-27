@@ -1,6 +1,6 @@
 # candyshop-site
 
-Trying to train my React js skills
+Trying to enhancing my React js skills
  
 ## Desktop printscreen
 ![image](https://user-images.githubusercontent.com/101835324/165626079-ebbfe4d9-c9f8-4e95-bca8-1e0905209abf.png)
