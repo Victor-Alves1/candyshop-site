@@ -34,17 +34,3 @@
   color: white;
   margin-bottom: 10px;
 }
-@media(max-width:600px){
-  .Add-buttom{
-    width: 244px;
-  }
-  .Plus{
-    display: none;
-  }
-  .Minus{
-    display: none;
-  }
-  #Qnt{
-    margin: 5px auto;
-  }
-}

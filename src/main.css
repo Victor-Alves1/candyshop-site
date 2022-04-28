@@ -18,4 +18,23 @@ h1{
         display: block;
         margin: auto;
     }
+    .inline{
+        display: block;
+    }
+    .Add-buttom{
+        width: 244px;
+      }
+      .Plus{
+        display: none;
+      }
+      .Minus{
+        display: none;
+      }
+      #Qnt{
+        margin: 5px auto;
+      }
+      .container{
+        flex-direction: column;
+        gap: 20px;
+      }
 }
