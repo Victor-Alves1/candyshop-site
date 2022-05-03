@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from './Card'
 import NewCandyInput from './AddCandy';
 
 const App =() => {
