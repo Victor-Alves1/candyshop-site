@@ -1,8 +1,10 @@
-img{
+.candy-img{
     width: 200px;
     image-rendering: optimizeSpeed;
-    filter: opacity(0.5);
+    filter: drop-shadow(0px 8px 8px gray);
+    filter: brightness(0.8);
     border-radius: 10px;
+    border: 2px solid white;
 }
 .inline{
     display: inline;
@@ -13,6 +15,6 @@ img{
     position: absolute;
     font-size: 50px;
     right: 50%;
-    transform: translate(50%, -300%);
-    color: black;
+    transform: translate(70%, -290%);
+    color: white;
 }

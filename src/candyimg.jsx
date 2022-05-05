@@ -12,28 +12,28 @@ function Candyimg(props) {
             case 'Strawberry cake': 
                 return (
                     <div className='inline'>
-                        <img src={Strawberry} alt="" />
+                        <img className='candy-img' src={Strawberry} alt="" />
                         <p>{props.qnt}</p>
                     </div>
                 );
             case 'Chocolate cake':
                 return (
                     <div className='inline'>
-                        <img src={Chocolate} alt="" />
+                        <img className='candy-img' src={Chocolate} alt="" />
                         <p>{props.qnt}</p>
                     </div>
                 );
             case 'Wedding cake':
                 return (
                     <div className='inline'>
-                        <img src={Wedding} alt="" />
+                        <img className='candy-img' src={Wedding} alt="" />
                         <p>{props.qnt}</p>
                     </div>
                 );
                 case 'Lemon cake': 
                 return (
                     <div className='inline'>
-                        <img src={Lemon} alt="" />
+                        <img className='candy-img' src={Lemon} alt="" />
                         <p>{props.qnt}</p>
                     </div>
                 );

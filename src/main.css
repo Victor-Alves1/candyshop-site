@@ -8,12 +8,67 @@ select, input, button, body{
     font-size: 16pt;
     box-shadow: none;
     font-weight: 700;
+    background-color: white;
+}
+body{
+  background-color: rgb(226, 222, 235);
+}
+input, select{
+  padding-left: 4px;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+.bgphoto{
+  height: 150%; 
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  filter: opacity(0.4);
+}
+.chefinho{
+  width: 360px;
+  margin-top: 10px;
 }
 h1{
-    font-style: italic;
-    --webkit-font-smoothing: antialiased;
+  font-style: italic;
+  --webkit-font-smoothing: antialiased;
+}
+.Add-buttom{
+  display: block;
+  margin: auto;
+}
+.Plus, .Minus{
+  border-radius: 1em;
+  width: 38px;
+  height: 38px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.Plus:hover, .Minus:hover{
+  border: 1px solid red;
+  color: black;
+}
+.Plus{
+  background-color: #EA4C89;
+  color: white;
+}
+#candyRequest{
+  width: 244px;
+}
+#Qnt{
+  width: 240px;
+}
+.Add-buttom{
+  width: 560px;
+  background-color: #EA4C89;
+  color: white;
+  margin-bottom: 10px;
 }
 @media(max-width:600px){
+  
     select, input, button, body{
         display: block;
         margin: auto;
